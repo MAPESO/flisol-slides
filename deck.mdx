@@ -1,0 +1,138 @@
+export { condensed as theme } from 'mdx-deck/themes';
+
+import { Image } from 'rebass'
+import { Appear } from 'mdx-deck'
+
+# Rendering On the Web
+
+---
+
+# About me
+
+Full Stack Developer actualmente colaborador en ▲ZEIT en proyectos como `now dev` y `now`
+
+Twitter: @markdrew53
+
+GitHub: @MAPESO
+
+---
+
+Un pequeño resumen de ▲**ZEIT**
+
+---
+
+<div style={{ textAlign: 'left' }}>
+
+`$ npm i -g now`
+
+`$ cd/path/a/mi/proyecto`
+
+`$ now`
+
+<p style={{ color: 'rgb(155, 155, 155)' }}># url única para tu proyecto</p>
+</div>
+
+
+---
+
+# Server Side Rendering (SSR)
+
+El metodo de renderizacion tradicional
+
+---
+
+<Image
+  width={[ 1, 1, 1/2 ]}
+  src="https://cdn-images-1.medium.com/max/1600/1*jJkEQpgZ8waQ5P-W5lhxuQ.png"
+  borderRadius={8}
+/>
+
+---
+
+<div style={{ textAlign: 'center' }}>
+  <h1>SSR pros:</h1>
+
+  <ul>
+    <Appear>
+      <li>Carga inicial más rapida 💨</li>
+      <li>Mejor SEO</li>
+      <li>Execelente para sitios estáticos</li>
+    </Appear>
+  </ul>
+</div>
+
+---
+
+# Casy study
+
+Netflix Jobs
+
+---
+
+# Client Side Rendering (CSR)
+
+Se usa Javascript, luego de que el DOM inicial ya cargo
+
+---
+
+<Image
+  width={[ 1, 1, 1/2 ]}
+  src="https://cdn-images-1.medium.com/max/1600/1*CRiH0hUGoS3aoZaIY4H2yg.png"
+  borderRadius={8}
+/>
+
+---
+
+<div style={{ textAlign: 'center' }}>
+  <h1>CSR pros:</h1>
+  <ul>
+    <Appear>
+      <li>Ideal para aplicaciones</li>
+      <li>Rica en interacción</li>
+      <li>Rápida, despues de la carga inicial</li>
+    </Appear>
+  </ul>
+</div>
+
+---
+
+# Rehydration
+
+“booting up” reutilizan el árbol y los datos DOM del HTML representado por el servidor.
+
+---
+
+# Prerendering
+
+proceso para precargar todos los elementos de la página
+
+---
+
+# Combine SSR and CSR
+
+<div style={{ fontSize: '0.7em' }}>
+  <ul>
+    <Appear>
+      <h3>React</h3>
+      <ul>
+          <li>Next</li>
+      </ul>
+      <h3>Vue</h3>
+      <ul>
+        <li>Nuxt</li>
+      </ul>
+      <h3>Angular</h3>
+        <ul>
+          <li>Nestjs</li>
+        </ul>
+    </Appear>
+  </ul>
+</div>
+
+---
+
+# Thank you 🙌❤️
+
+Made with [MDX deck](https://github.com/jxnblk/mdx-deck)
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "flisol-slides",
+  "version": "1.0.0",
+  "description": "Flisol slides",
+  "main": "index.js",
+  "author": "Markoz Peña Mendez",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "mdx-deck": "^2.0.6"
+  },
+  "dependencies": {
+    "rebass": "^3.1.0",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  }
+}
